@@ -4,6 +4,9 @@ import router from './router'
 import store from './store'
 import './plugins/element.js'
 
+import SkyUI from '../src/index'
+Vue.use(SkyUI)
+
 Vue.config.productionTip = false
 
 new Vue({

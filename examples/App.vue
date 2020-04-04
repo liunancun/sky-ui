@@ -10,6 +10,7 @@
       <el-button>el-button</el-button>
     </div>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <page :total="99" />
   </div>
 </template>
 

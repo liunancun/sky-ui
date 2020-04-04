@@ -1,11 +1,19 @@
 {
-  "name": "sky-ui",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@liunancun/sky-ui",
+  "version": "0.1.1",
+  "main": "dist/sky-ui.common.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "private": false,
+  "author": "liunancun",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name sky-ui ./src/index.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
